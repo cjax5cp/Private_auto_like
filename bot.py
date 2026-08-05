@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 ULTRA AUTO LIKE TELEGRAM BOT
-Ready version for PRIVATE0011_BOT
+Ready version for CJax Freefire Auto Like Bot
 """
 
 import os
@@ -28,14 +28,14 @@ from apscheduler.triggers.cron import CronTrigger
 # ======================== CONFIG AREA =========================
 # =============================================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = 6830149432
+BOT_TOKEN = "8834971830:AAGzK50CWYxb1g2qYHHab2LKTmgOXc0Oc8g"
+OWNER_ID = 7941294283
 LIKE_API_URL = "https://like-by-ckrpro-api-ob-54.vercel.app/like?uid={uid}&server_name={region}"
 LIKE_API_URL_2 = "https://like-by-ckrpro-api-ob-54.vercel.app/like?uid={uid}&server_name={region}"
-BOT_NAME = "PRIVATE Auto Like"
-SUPPORT_USERNAME = "@GENIUS0011P"
-OFFICIAL_GROUP = "https://t.me/GENIUS0011P"
-PAYMENT_TEXT = "@GENIUS0011P"
+BOT_NAME = "CJax Freefire Auto Like"
+SUPPORT_USERNAME = "@CjaxTM"
+OFFICIAL_GROUP = "https://t.me/CjaxTM"
+PAYMENT_TEXT = "@CjaxTM"
 DEFAULT_AUTOLIKE_TIME = "04:00"
 TIMEZONE_NAME = "Asia/Kolkata"
 

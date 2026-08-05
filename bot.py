@@ -28,7 +28,7 @@ from apscheduler.triggers.cron import CronTrigger
 # ======================== CONFIG AREA =========================
 # =============================================================
 
-BOT_TOKEN = "8895378766:AAEUQU5rnS-WfcnOsW5SjD-4i_nYSs63wjY"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = 6830149432
 LIKE_API_URL = "https://like-by-ckrpro-api-ob-54.vercel.app/like?uid={uid}&server_name={region}"
 LIKE_API_URL_2 = "https://like-by-ckrpro-api-ob-54.vercel.app/like?uid={uid}&server_name={region}"
